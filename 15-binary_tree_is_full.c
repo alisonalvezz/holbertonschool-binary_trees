@@ -1,13 +1,13 @@
 #include "binary_trees.h"
 
 /**
-*binary_tdasree_is_full - checks if a binary tree is full
+*binary_tree_is_full - checks if a binary tree is full
 *@tree: pointer to the root node
 *
 *Return: retunr 1 this a tree perfect else 0;
 */
 
-int binary_tdasree_is_full(const binary_tree_t *tree)
+int binary_tree_is_full(const binary_tree_t *tree)
 {
 
 	/* if para saber si es null */
