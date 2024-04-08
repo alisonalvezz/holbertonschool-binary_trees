@@ -15,7 +15,7 @@ A binary tree is a type of data structure in which each node can have at most tw
 | Leaf node | A node that has no child node |
 | Full binary tree | All nodes are filled, with only leaves remaining |
 | Complete binary tree | All nodes filled save for those in the final row |
-| Balanced binary tree | A complete tree where the final row can have a difference of one level |
+| Balanced binary tree | A complete tree where the final row can have a difference of one level at the left |
 | Height | It represents the longest path from the node to any of its descendant leaves |
 | Depth | Its the number of edges from the node to the trees root node |
 | Size | It refers to the number of nodes in the given tree |
