@@ -19,7 +19,7 @@ A binary tree is a type of data structure in which each node can have at most tw
 | Height | It represents the longest path from the node to any of its descendant leaves |
 | Depth | Its the number of edges from the node to the trees root node |
 | Size | It refers to the number of nodes in the given tree |
-| Balance factor | It refers to the number of nodes in the given tree |
+| Balance factor | Its a comparation of heights between the right part of the tree and the left part |
 
 ### Properties of binary trees
 -A binary tree allows for a maximum of two children per node.
@@ -76,29 +76,29 @@ In this task we have to write a function that goes through a binary tree using p
 The function first prints the leaf left child in the left parent, then the leaf right child of the left parent, afterwards the left parent, then the leaf left node in the right parent, then the right leaf node in the right parent, afterwards the right parent and for last the root node.
 
 ## Tenth task: Height
-### Prototype `size_t binary_tree_height(const binary_tree_t *tree);`
+#### Prototype `size_t binary_tree_height(const binary_tree_t *tree);`
 In this task we have to measure the height of a binary tree. Where *tree* is a pointer to the root node of the tree to traverse the height.
 It returns 0 if *tree* is NULL.
 
 ## Eleventh task: Depth
-### Prototype `size_t binary_tree_depth(const binary_tree_t *tree);`
+#### Prototype `size_t binary_tree_depth(const binary_tree_t *tree);`
 In this task we have to measure the height of a binary tree. In which *tree* is a pointer to the node to measure the depth.
 It returns 0 if *tree* is NULL.
 
 ## Twelfth task: Size
-### Prototype `size_t binary_tree_size(const binary_tree_t *tree);`
+#### Prototype `size_t binary_tree_size(const binary_tree_t *tree);`
 In this task we have to measure the size of a binary tree. In which *tree* is a pointer to the node to measure the size.
 It returns 0 if *tree* is NULL.
 
 ## Thirteenth task: Leaves
-### Prototype `size_t binary_tree_leaves(const binary_tree_t *tree);`
+#### Prototype `size_t binary_tree_leaves(const binary_tree_t *tree);`
 In this task we have to write a function that counts the leaves in a binary tree. In which *tree* is a pointer to the root node of the tree.
 It returns 0 if *tree* is NULL.
 
 ## Fourteenth task: Nodes
-### Prototype `size_t binary_tree_nodes(const binary_tree_t *tree);`
+#### Prototype `size_t binary_tree_nodes(const binary_tree_t *tree);`
 In this task we have to write a function that counts the node with at least one child in a binary tree. In which *tree* is a pointer to the root node of the binary tree.
 If *tree* is NULL it returns 0.
 
 ## Fifteenth task: Balance factor
-### Prototype `int binary_tree_balance(const binary_tree_t *tree);`
+#### Prototype `int binary_tree_balance(const binary_tree_t *tree);`
