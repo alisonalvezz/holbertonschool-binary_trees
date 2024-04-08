@@ -22,9 +22,9 @@ A binary tree is a type of data structure in which each node can have at most tw
 | Balance factor | Its a comparation of heights between the right part of the tree and the left part |
 
 ### Properties of binary trees
--A binary tree allows for a maximum of two children per node.
--The maximum number of edges between the root and a leaf node determines the height of a binary tree.
--In a binary tree, there can only be as many leaf nodes as internal nodes plus one.
+1. A binary tree allows for a maximum of two children per node.
+2. The maximum number of edges between the root and a leaf node determines the height of a binary tree.
+3. In a binary tree, there can only be as many leaf nodes as internal nodes plus one.
 
 ### Learning objectives
 - What is a binary tree
